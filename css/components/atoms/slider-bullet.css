@@ -1,0 +1,10 @@
+.slider-bullet {
+  display: inline-block;
+  inline-size: 15px;
+  block-size: 15px;
+  background-color: rgba(66, 66, 66, 0.2);
+  border-radius: 50%;
+}
+.slider-bullet:hover {
+  background-color: #424242;
+}

@@ -1,0 +1,8 @@
+.section {
+  margin-top: 164px;
+}
+
+.section:first-of-type {
+  /* background-color: red; */
+  margin: 0;
+}

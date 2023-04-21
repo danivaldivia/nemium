@@ -1,0 +1,8 @@
+.summary__link {
+  color: var(--gray10);
+  text-decoration: none;
+}
+
+.summary__link:hover {
+  color: var(--gray30);
+}

@@ -1,0 +1,29 @@
+.subtitle {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  line-height: 1.16em;
+}
+
+.subtitle::after {
+  content: "";
+  width: 100%;
+  height: 0.25rem;
+  background-color: #424242;
+  display: inline-block;
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+}
+
+.section .section {
+  counter-reset: titleList;
+}
+.section .subtitle {
+  counter-increment: titleList;
+  padding: 0.5rem 0.5rem 0.25rem 0;
+}
+
+.section .subtitle::before {
+  content: counter(titleList, decimal) ". ";
+}

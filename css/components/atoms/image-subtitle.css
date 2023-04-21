@@ -1,0 +1,18 @@
+.image-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+/* .section .image-subtitle {
+  counter-increment: titleList;
+  padding: 0.5rem 0.5rem 0.25rem 0;
+} */
+
+.image-subtitle {
+  counter-increment: titleList;
+}
+
+.icon-section .subtitle::before {
+  content: counter(titleList, decimal) ". ";
+}

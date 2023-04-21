@@ -1,0 +1,10 @@
+.hero {
+  height: 350px;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.3),
+      transparent
+    ),
+    url("../../../images/pattern.png");
+  margin: 0;
+}
