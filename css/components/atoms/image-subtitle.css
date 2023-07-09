@@ -4,15 +4,16 @@
   align-items: start;
 }
 
-/* .section .image-subtitle {
-  counter-increment: titleList;
-  padding: 0.5rem 0.5rem 0.25rem 0;
-} */
-
 .image-subtitle {
   counter-increment: titleList;
 }
 
-.icon-section .subtitle::before {
+.subtitle::before {
   content: counter(titleList, decimal) ". ";
+}
+
+.image-subtitle img {
+  /* border: 3px solid red; */
+  margin-block-start: 24px;
+  display: block;
 }

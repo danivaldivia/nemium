@@ -1,6 +1,7 @@
 .menu-container {
+  /* border: 5px solid green; */
   width: 188px;
   height: 240px;
-  margin: 64px 44px 104px 116px;
-  /* border: 5px solid green; */
+  /* margin: 64px 44px 104px 116px; */
+  margin-bottom: 104px;
 }
