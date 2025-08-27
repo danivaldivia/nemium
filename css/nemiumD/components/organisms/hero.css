@@ -4,7 +4,7 @@
     height: 98px;
     background-image:
         linear-gradient(to right, transparent, rgba(142, 45, 226, 0.5), rgba(74, 0, 224, 0.6)),
-        url("/images/patron-2.webp");
+        url("../../../../images/patron-2.webp");
     background-size: cover, 50px;
     /* El degradado cubre toda el área */
 
