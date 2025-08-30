@@ -1,11 +1,11 @@
-.wrapper {
+.container {
     width: 100%;
     margin: auto;
 }
 
 
 @media screen and (min-width: 1024px) {
-    .wrapper {
+    .container {
         margin-right: 7.25rem;
     }
 }
