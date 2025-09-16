@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-right: 116px;
+    }
+
+}

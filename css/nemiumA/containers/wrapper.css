@@ -1,11 +1,13 @@
 .wrapper {
-    width: 100%;
-    margin: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 
 @media screen and (min-width: 1024px) {
     .wrapper {
-        margin-right: 7.25rem;
+        flex-wrap: nowrap;
+        flex-direction: row;
     }
 }

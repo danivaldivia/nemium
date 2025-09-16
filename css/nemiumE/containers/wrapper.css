@@ -1,4 +1,16 @@
 .wrapper {
-    width: 100%;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px 27px 0px 27px;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: 100px 200px 0 200px;
+    }
+
 }
